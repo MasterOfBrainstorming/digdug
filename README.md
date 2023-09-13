@@ -32,13 +32,13 @@ positional arguments:
   {res,rdns}            Resolve either domain or reverse dns
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            Show this help message and exit
   -f [FILE], --file [FILE]
-                        file containing ip-addresses or domains
+                        File containing ip-addresses or domains
   -t [THREADS], --thread [THREADS]
                         Threads launched
   -o [OUTPUT], --output [OUTPUT]
-                        Threads launched
+                        Output name
 ```
 python3.9 dig-py.py res -f domains -o example
 ## Usage:
