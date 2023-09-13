@@ -1,5 +1,5 @@
 # digdug
-Quickie hack to dig multiple domains or IP-addresses listed in a file 
+Quickie hack to dig multiple domains or IP-addresses listed in a file.
 
 
          _____  _       _____              
@@ -19,13 +19,13 @@ Quickie hack to dig multiple domains or IP-addresses listed in a file
 
 ## Installation
 
-The script will require pandas and argparse in addition to python standard libraries. Script is written using python3.9.
+The script will require pandas and argparse in addition to python standard libraries. Script is written using python3.9 and works on Linux.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Commanline arguments
+## Commandline arguments
 
 ```bash
 positional arguments:
