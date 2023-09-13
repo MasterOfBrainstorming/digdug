@@ -36,7 +36,7 @@ def argumentParser():
     parser.add_argument('query', choices=['res', 'rdns'], help='Resolve either domain or reverse dns')
     parser.add_argument('-f', '--file', nargs='?',dest='file', help='file containing ip-addresses or domains', type=str)
     parser.add_argument('-t', '--thread', nargs='?', dest='threads', help='Threads launched', type=int, default=4)
-    parser.add_argument('-o', '--output', nargs='?', dest='output', help='Threads launched', type=str, default='digdug-output')
+    parser.add_argument('-o', '--output', nargs='?', dest='output', help='Output name', type=str, default='digdug-output')
     args = parser.parse_args()
 
     if len(sys.argv) == 1:
