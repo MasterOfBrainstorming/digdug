@@ -40,7 +40,7 @@ optional arguments:
   -o [OUTPUT], --output [OUTPUT]
                         Output name
 ```
-python3.9 dig-py.py res -f domains -o example
+
 ## Usage:
 
 The script will require certain parameters in order to work. 
