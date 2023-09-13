@@ -74,7 +74,7 @@ digdug.py res -f domains -o example
 2023-09-13 23:27:33,173 [INFO] - done
 ```
 
-## rdns
+### rdns
 ```bash
 digdug.py rdns -f ips -o example
 2023-09-13 23:30:13,597 [INFO] - rdns: 8.8.8.8
